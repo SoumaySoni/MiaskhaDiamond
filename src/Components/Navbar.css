@@ -1,0 +1,49 @@
+.navbar{
+    font-family: poppins;
+}
+
+.navbar {
+  height: 100px;
+}
+
+.navbar-brand {
+  font-size: 30px;
+  font-variant: small-caps;
+}
+
+.collapse > ul {
+  margin: 0 0 0 30px;
+}
+
+.collapse > ul > li a {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0 0 0 10px;
+  color: blueviolet !important;
+}
+
+.log-in > ul > li a {
+  font-size: 25px;
+  font-weight: 900;
+  color: blueviolet !important;
+}
+
+.log-in button {
+  border-color: blueviolet;
+  margin: 0 0 0 20px;
+  border-radius: 30px;
+  padding: 0 20px;
+  color: blueviolet;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.log-in button:hover {
+  background-color: blueviolet;
+  color: white;
+}
+
+.demo::after {
+  margin: 0 0 0 10px;
+  content: "|";
+}
